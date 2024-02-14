@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    background-color: hsl(217, 54%, 11%);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    font-family: 'Outfit', sans-serif;
+}
+
+img{
+    border-radius: 10px;
+    height: 200px;
+    width: 240px;
+    margin-left: 17px;
+    margin-top: 15px;
+}
+
+.parent-container{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    padding: 5px;
+    background-color: hsl(216, 50%, 16%);
+    box-shadow: 10px 10px 10px 10px #0C1729;
+    border: 1px ;
+    border-radius: 15px;
+    height: 470px;
+    width: 280px;
+}
+
+
+p{
+    font-size: 5px;
+}
+
+.child-container{
+    flex-direction: column;
+    padding-right: 10px;
+
+}
+
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text, .text1, .text2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+ .img1{
+    height: 25px;
+    width: 25px;
+}
+
+.user{
+    display: flex;
+   justify-content: space-around;
+   align-items: center;
+   
+}
+
+.user img{
+    width: 40px;
+  margin-right: 10px;
+  margin-bottom: 15px;
+  height: 40px;
+}
+
+div h3{
+    color: white;
+  font-size: 20px;
+  font-family: 'Outfit',sans-serif;
+  font-weight: 600;
+}
+
+div p{
+    color: white;
+  font-size: 18px;
+  font-family: 'Outfit',sans-serif;
+  font-weight: 400;
+}
